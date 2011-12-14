@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>FeedBackForm</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+
+</head>
+
+<body>
+
+
+<div data-role="header">
+
+		<h1>FeedBackForm</h1>
+        
+
+</div><!-- /header -->
+<p>We thank you for attending our trainning. We'll like to get you unbiased opinion about our training.</p>
+
+<form action="#" method="get" id="formId"> 
+
+
+
+<div data-role="fieldcontain">
+	         <label for="name"><strong>Your Name</strong>:</label>
+	         <input type="text" name="name" id="name" value="" />
+</div>
+			
+            <div data-role="fieldcontain">
+	         <label for="name"><em>* </em><strong>Course Title</strong>:</label>
+	         <input type="text" name="title" id="title" value="" />
+</div>
+          
+          	<div data-role="fieldcontain">
+	         <label for="trainner"><strong>Trainners Name</strong>:</label>
+	         <input type="text" name="trainner" id="name" value="" />
+			</div>
+          
+          	
+            <div data-role="fieldcontain"> 	
+
+			  <label for="knowledge" class="select"><strong>Rate Trainers Course Knowlegde</strong>:</label> 
+
+				<select name="knowledge" id="knowledge"> 
+
+				  <option value="Poor">Poor</option> 
+
+					<option value="Fair">Fair</option> 
+
+					<option value="Good">Good</option> 
+
+					<option value="Excellent">Excellent</option> 
+
+			  </select> 
+
+			</div>  
+            
+            <fieldset data-role="controlgroup">
+        	<legend><strong>Did our training improve you?</strong>:</legend>
+            <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked" />
+            <label for="radio-choice-1">Yes</label>
+    
+            <input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2"  />
+            <label for="radio-choice-2">No</label>
+    
+            
+   			</fieldset>
+            
+            <div data-role="fieldcontain">
+	         <label for="usefulness"><strong>What part of this training did you find most useful?</strong>:</label>
+	         <input type="text" name="usefulness" id="name" value="" />
+			</div>
+            
+            <div data-role="fieldcontain">
+	         <label for="usefulness2"><strong>What part of this training did you find least useful?</strong>:</label>
+	         <input type="text" name="usefulness2" id="name" value="" />
+			</div>
+            
+            
+            <div data-role="fieldcontain"> 	
+
+			  <label for="food" class="select"><strong>How about the food?</strong>:</label> 
+
+				<select name="food" id="food"> 
+
+				  <option value="Poor">Really Delicious</option> 
+
+					<option value="Fair">It's ok...</option> 
+
+					<option value="Good">Just there</option> 
+
+					<option value="Excellent">Very terrible</option> 
+
+			  </select> 
+
+			</div>  
+
+
+           
+           <label for="slider-0"><strong>Rate the toilet and other traning facility</strong>:</label>
+       	   <input type="range" name="slider" id="slider-0" value="25" min="0" max="100"  />
+                            
+    
+    
+    
+            <div data-role="fieldcontain">
+            <label for="textarea"><strong>Comments, Ideas or Suggestions</strong>:</label>
+            <textarea name="textarea" id="textarea"></textarea>
+			</div>
+
+			<fieldset class="ui-grid-a"> 
+
+				<div class="ui-block-a"><button type="submit" data-theme="d" data-icon="delete" >Cancel</button></div> 
+
+				<div class="ui-block-b"><button type="submit" data-theme="a" data-icon="check">Submit</button></div> 
+
+	    	</fieldset> 
+
+</form> 
+			
+            
+           
+</div>   
+          
+
+
+</body>
+</html>
