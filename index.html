@@ -20,81 +20,127 @@
         
 
 </div><!-- /header -->
-<p>We thank you for attending our trainning. We'll like to get you unbiased opinion about our training.</p>
+<p>We thank you for attending our trainning. We'll like to get your unbiased opinion about our training.</p>
 
 <form action="#" method="get" id="formId"> 
 
-
-
+			<h3>Training Section</h3>
+			<p><strong>Scale: 5 = Highest and 1 = Lowest</strong></p>
 <div data-role="fieldcontain">
 	         <label for="name"><strong>Your Name</strong>:</label>
 	         <input type="text" name="name" id="name" value="" />
 </div>
 			
             <div data-role="fieldcontain">
-	         <label for="name"><em>* </em><strong>Course Title</strong>:</label>
+	         <label for="name"><em>* </em><strong>Course Title</strong></label>
 	         <input type="text" name="title" id="title" value="" />
 </div>
           
           	<div data-role="fieldcontain">
-	         <label for="trainner"><strong>Trainners Name</strong>:</label>
+	         <label for="trainner"><strong>Trainners Name</strong></label>
 	         <input type="text" name="trainner" id="name" value="" />
 			</div>
           
           	
             <div data-role="fieldcontain"> 	
 
-			  <label for="knowledge" class="select"><strong>Rate Trainers Course Knowlegde</strong>:</label> 
+			  <label for="knowledge" class="select"><strong>Rate Trainers Course Knowlegde</strong></label> 
 
 				<select name="knowledge" id="knowledge"> 
 
-				  <option value="Poor">Poor</option> 
+				  <option value="Excellent">5 - Excellent</option> 
 
-					<option value="Fair">Fair</option> 
+					<option value="Very Good">4 - Very Good</option> 
 
-					<option value="Good">Good</option> 
+					<option value="Good">3 - Good</option> 
 
-					<option value="Excellent">Excellent</option> 
+					<option value="Poor">2 - Poor</option> 
+                    
+                    <option value="Very Poor">1 - Very Poor</option>
 
 			  </select> 
 
 			</div>  
             
-            <fieldset data-role="controlgroup">
-        	<legend><strong>Did our training improve you?</strong>:</legend>
-            <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked" />
-            <label for="radio-choice-1">Yes</label>
-    
-            <input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2"  />
-            <label for="radio-choice-2">No</label>
-    
+             <div data-role="fieldcontain"> 	
+
+			  <label for="knowledge" class="select"><strong>Rate Trainers Course Delivery</strong></label> 
+
+				<select name="delivery" id="delivery"> 
+
+				  <option value="Excellent">5 - Excellent</option> 
+
+					<option value="Very Good">4 - Very Good</option> 
+
+					<option value="Good">3 - Good</option> 
+
+					<option value="Poor">2 - Poor</option> 
+                    
+                    <option value="Very Poor">1 - Very Poor</option>
+
+			  </select> 
+
+			</div>  
             
-   			</fieldset>
+            
+  <fieldset data-role="controlgroup">
+    <legend><strong>Did the training meet your expectation?</strong>:</legend>
+    
+                <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked" />
+    <label for="radio-choice-1">Yes</label>
+    
+                <input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2"  />
+    <label for="radio-choice-2">Not exactly</label>
+    
+                <input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3"  />
+                <label for="radio-choice-3">No</label>
+
+</fieldset>
             
             <div data-role="fieldcontain">
-	         <label for="usefulness"><strong>What part of this training did you find most useful?</strong>:</label>
-	         <input type="text" name="usefulness" id="name" value="" />
+                 <label for="usefulness"><strong>What part of this training did you find most useful?</strong></label>
+              <input type="text" name="usefulness" id="name" value="" />
 			</div>
             
             <div data-role="fieldcontain">
-	         <label for="usefulness2"><strong>What part of this training did you find least useful?</strong>:</label>
-	         <input type="text" name="usefulness2" id="name" value="" />
+                 <label for="usefulness2"><strong>What part of this training did you find least useful?</strong></label>
+              <input type="text" name="usefulness2" id="name" value="" />
 			</div>
             
+            <h3>Non Training Section</h3>
             
             <div data-role="fieldcontain"> 	
 
-			  <label for="food" class="select"><strong>How about the food?</strong>:</label> 
+			  <label for="food" class="select"><strong>How was the staff treatment?</strong></label> 
+
+				<select name="staff" id="staff"> 
+
+				  <option value="4">Really Delicious</option> 
+
+					<option value="3">It's ok...</option> 
+
+					<option value="2">Just there</option> 
+
+					<option value="1">Very terrible</option> 
+
+			  </select> 
+
+			</div>  
+
+            
+			<div data-role="fieldcontain"> 	
+
+			  <label for="food" class="select"><strong>How about the food?</strong></label> 
 
 				<select name="food" id="food"> 
 
-				  <option value="Poor">Really Delicious</option> 
+				  <option value="4">Really Delicious</option> 
 
-					<option value="Fair">It's ok...</option> 
+					<option value="3">It's ok...</option> 
 
-					<option value="Good">Just there</option> 
+					<option value="2">Just there</option> 
 
-					<option value="Excellent">Very terrible</option> 
+					<option value="1">Very terrible</option> 
 
 			  </select> 
 
